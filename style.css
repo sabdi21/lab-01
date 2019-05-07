@@ -1,0 +1,46 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+  
+body {
+    margin: auto;
+  }
+  
+body, form {
+    margin: 10;
+    padding: 10;
+}
+
+div {
+    text-align: center;
+  }
+
+
+#a {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 75px;
+    line-height: 75px;
+    background-color: darkviolet;
+
+    /* height: 10px;
+    width: 900px;
+    padding: 10px;
+    background-color:gray;
+    border-width: 10px;
+    border-color:black; */
+}
+
+#b {
+    height: 400px;
+    width: 100px;
+    background-color: gray;
+    border-color: black;
+}
+
+#c {
+    height:
+    width:
+    background-color:
+    border-color:
+}
