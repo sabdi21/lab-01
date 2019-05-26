@@ -1,0 +1,207 @@
+@media all and (min-width: 768px) and (max-width: 960px){
+
+    main{
+      display: grid;
+      grid-template-areas:
+        'header menu'
+        'main right'
+        'e f '
+        'g h'
+        'footer footer';
+      background-color: rgb(245, 3, 3);
+      }
+    
+      #a{
+        grid-area: header;
+      }
+    
+      #b {
+        grid-area: menu;
+      }
+    
+      #c {
+        grid-area: main;
+      }  
+    
+      #d {
+        grid-area: right;
+      }
+    
+      #e {
+        grid-area: e;
+      }
+    
+      #f {
+        grid-area: f;
+      }
+      
+      #g {
+        grid-area: g;
+      }
+    
+      #h {
+        grid-area: h;
+      }
+    
+      #j {
+        grid-area: footer;
+      }
+  
+    body{
+      background-color: rgb(130, 164, 194);
+    }
+  
+    #a  {
+      background-color: rgba(158, 202, 37, 0.411);
+      height: 300px;
+    }
+    
+    #b  {
+      background-color: rgb(181, 206, 91);
+      height: 300px; 
+    }
+    
+    #c  {
+      background-color: rgb(228, 240, 230);
+      height: 300px; 
+    }
+    
+    #d  {
+      background-color: rgb(16, 156, 149);
+      height: 300px; 
+    }
+    
+    
+    #e {
+      background-color: rgb(9, 238, 226);
+      height: 250px; 
+    }
+    
+    
+    #f  {
+      background-color: rgb(183, 63, 219);
+      height: 250px; 
+    }
+    
+    
+    #g  {
+      background-color: rgb(148, 139, 147);
+      height: 250px; 
+    }
+    
+    
+    #h  {
+      background-color: rgb(184, 26, 123);
+      height: 250px; 
+    }
+    
+    #j {
+      background-color: rgb(223, 128, 128);
+      height: 150px;
+    }
+  
+  }
+  
+  
+  @media screen and (min-width: 961px) and (max-width: 1880px){
+  
+    body{
+      background-color: rgb(0, 0, 0);
+    }
+  
+    main{
+    display: grid;
+    grid-template-areas:
+      'header header header header header'
+      'menu main main right right'
+      'menu e f g h'
+      'menu footer footer footer footer';
+    background-color: rgb(255, 0, 0);
+    }
+  
+    #a{
+      grid-area: header;
+    }
+  
+    #b {
+      grid-area: menu;
+    }
+  
+    #c {
+      grid-area: main;
+    }  
+  
+    #d {
+      grid-area: right;
+    }
+  
+    #e {
+      grid-area: e;
+    }
+  
+    #f {
+      grid-area: f;
+    }
+    
+    #g {
+      grid-area: g;
+    }
+  
+    #h {
+      grid-area: h;
+    }
+  
+    #j {
+      grid-area: footer;
+    }
+  
+    #a  {
+      background-color: rgb(62, 16, 230);
+      height: 100px;
+    }
+    
+    #b  {
+      background-color: rgb(133, 175, 253);
+      height: 600px; 
+    }
+    
+    #c  {
+      background-color: rgb(13, 107, 102);
+      height: 200px; 
+    }
+    
+    #d  {
+      background-color: rgb(6, 47, 85);
+      height: 200px; 
+    }
+    
+    
+    #e {
+      background-color: rgb(192, 214, 229);
+      height: 250px; 
+    }
+    
+    
+    #f  {
+      background-color: rgb(44, 14, 99);
+      height: 250px; 
+    }
+    
+    
+    #g  {
+      background-color: rgb(38, 0, 255);
+      height: 250px; 
+    }
+    
+    
+    #h  {
+      background-color: rgb(12, 88, 69);
+      height: 250px; 
+    }
+    
+    #j {
+      background-color: rgb(185, 161, 192);
+      height: 150px;
+    }
+  
+  }
