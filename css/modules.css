@@ -1,0 +1,76 @@
+#a section {
+    display: block;
+    background-color: rgb(198, 22, 204);
+    width: 480px;
+    height: 75px;
+    text-align: center;
+  }
+  
+  #b section {
+    display: block;
+    background-color: pink;
+    width: 480px;
+    height: 150px;
+    text-align: center;
+  }
+  
+  #c section {
+    display: block;
+    background-color: lightcyan;
+    width: 480px;
+    height: 125px;
+    text-align: center;
+  }
+  
+  
+  #d section {
+    display: block;
+    background-color:green;
+    width: 480px;
+    height: 125px;
+    text-align: center;
+  }
+  
+  
+  #e section {
+    display: block;
+    background-color: lightcyan;
+    width: 240px;
+    height: 250px;
+    text-align: center;
+  }
+  
+  
+  #f section {
+    display: inline-block;
+    background-color: darkblue;
+    width: 240px;
+    height: 250px;
+    text-align: center;
+  }
+  
+  
+  #g section {
+    display: inline-block;
+    background-color: yellow;
+    width: 240px;
+    height: 250px;
+    text-align: center;
+  }
+  
+  
+  #h section {
+    display: inline-block;
+    background-color: rgb(44, 41, 32);
+    width: 240px;
+    height: 250px;
+    text-align: center;
+  }
+  
+  #j section {
+    display: block;
+    background-color: rgb(6, 6, 177);
+    width: 480px;
+    height: 80px;
+    text-align: center;
+  }
