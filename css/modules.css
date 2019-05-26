@@ -1,76 +1,96 @@
+/* used flexbox instead of grid */
+
 #a section {
     display: block;
     background-color: rgb(198, 22, 204);
-    width: 480px;
+    /* width: 480px; */
+    width: 100%;
     height: 75px;
     text-align: center;
   }
   
-  #b section {
+#b section {
     display: block;
-    background-color: pink;
-    width: 480px;
+    background-color: rgb(238, 69, 17);
+    /* width: 480px; */
+    width: 100%;
     height: 150px;
     text-align: center;
   }
   
-  #c section {
+#c section {
     display: block;
-    background-color: lightcyan;
-    width: 480px;
+    background-color: rgb(177, 123, 8);
+    /* width: 480px; */
+    width: 100%;
     height: 125px;
     text-align: center;
   }
   
   
-  #d section {
+#d section {
     display: block;
-    background-color:green;
-    width: 480px;
+    background-color:rgb(235, 11, 11);
+    /* width: 480px; */
+    width: 100%;
     height: 125px;
     text-align: center;
   }
   
   
-  #e section {
+#e section {
+      flex-direction: row;
     display: block;
-    background-color: lightcyan;
-    width: 240px;
+    background-color: rgb(126, 60, 60);
+    /* width: 240px; */
+    width: 100%;
     height: 250px;
     text-align: center;
   }
   
   
-  #f section {
+#f section {
     display: inline-block;
-    background-color: darkblue;
+    background-color: rgb(253, 162, 162);
     width: 240px;
     height: 250px;
     text-align: center;
   }
   
   
-  #g section {
+#g section {
     display: inline-block;
-    background-color: yellow;
-    width: 240px;
+    background-color: rgba(207, 11, 44, 0.719);
+    /* width: 240px; */
+    width: 100%;
     height: 250px;
     text-align: center;
   }
   
   
-  #h section {
+#h section {
     display: inline-block;
-    background-color: rgb(44, 41, 32);
-    width: 240px;
+    background-color: rgb(250, 101, 101);
+    /* width: 240px; */
+    width: 100%;
     height: 250px;
     text-align: center;
   }
   
-  #j section {
+#j section {
+    display: inline-block;
+    background-color: rgb(255, 0, 0);
+    /* width: 480px; */
+    width: 100%;
+    height: 80px;
+    text-align: center;
+  }
+
+  #i section {
     display: block;
-    background-color: rgb(6, 6, 177);
-    width: 480px;
+    background-color: rgb(224, 192, 192);
+    /* width: 480px; */
+    width: 100%;
     height: 80px;
     text-align: center;
   }

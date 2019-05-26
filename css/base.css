@@ -9,15 +9,141 @@ body {
     background-color: rgb(24, 206, 223);
     text-align: center;
     font-size: 30px;
+/* 
+    position: relative;
+    top: 50%; */
+
   }
   
 main{
     margin-left: auto;
     margin-right: auto;
     display: block;
-}
-  
-section {
+    grid-template-areas:
+    'header header'
+    'menu menu'
+    'main main' 
+    'right right'
+    'e f' 
+    'g h'
+    'footer footer';
     position: relative;
     top: 50%;
 }
+  
+/* section {
+    position: relative;
+    top: 50%;
+} */
+
+#a{
+    grid-area: header;
+    background-color: rgb(206, 11, 11);
+    height: 300px;
+  }
+  
+ #b {
+    grid-area: menu;
+    background-color: rgb(7, 7, 243);
+    height: 300px; 
+  }
+  
+ #c {
+    grid-area: main;
+    background-color: rgb(95, 9, 95);
+    height: 300px;
+  }  
+  
+ #d {
+    grid-area: right;
+    background-color: rgb(71, 66, 104);
+    height: 300px; 
+  }
+  
+ #e {
+    grid-area: e;
+    background-color: rgb(245, 160, 50);
+    height: 250px; 
+  }
+  
+ #f {
+    grid-area: f;
+    background-color: rgb(217, 112, 226);
+    height: 250px; 
+  }
+  
+ #g {
+    grid-area: g;
+    background-color: rgb(156, 156, 30);
+    height: 250px; 
+  }
+  
+ #h {
+    grid-area: h;
+    background-color: rgb(131, 170, 150);
+    height: 250px; 
+  }
+  
+ #j {
+    grid-area: footer;
+    background-color: rgb(10, 172, 212);
+    height: 150px;
+  }
+
+  /* #b  {
+    background-color: hotpink;
+    height: 300px; 
+    } */
+
+    @media screen and (min-width: 961px) and (max-width: 1880px){
+
+        body{
+        background-color: whitesmoke;
+        }
+        
+        main{
+        display: grid;
+        grid-template-areas:
+        'header header header header header'
+        'menu main main right right'
+        'menu e f g h'
+        'menu footer footer footer footer';
+        background-color: darkgray;
+        }
+        
+        #a{
+        grid-area: header;
+        }
+        
+        #b {
+        grid-area: menu;
+        }
+        
+        #c {
+        grid-area: main;
+        }  
+        
+        #d {
+        grid-area: right;
+        }
+        
+        #e {
+        grid-area: e;
+        }
+        
+        #f {
+        grid-area: f;
+        }
+        
+        #g {
+        grid-area: g;
+        }
+        
+        #h {
+        grid-area: h;
+        }
+        
+        #j {
+        grid-area: footer;
+        }
+    }
